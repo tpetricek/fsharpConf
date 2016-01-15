@@ -1,0 +1,205 @@
+body {
+    background-color: #f5f5f5;
+}
+#header {
+    background-color: #23abd3;
+}
+#body {
+  font:13pt 'open sans';
+}
+#body h1 {
+  font:bold 25pt Poppins;
+  color:#115568;
+  margin-top:40px;
+}
+#body h2 {
+  font:bold 20pt Poppins;
+  color:#115568;
+}
+#body h3 {
+  margin-top:30px;
+  font:bold 16pt Poppins;
+  color:#115568;
+}
+#body li {
+  margin-bottom:6px;
+}
+.header-up {
+    background-color: #fff;
+    color:#115568;
+    border-bottom: 8px solid #1c89a9;
+}
+
+.wrapper-logo {
+    width: 650px;
+    height: 575px;
+    margin: auto;
+    margin-top: 0px;
+    padding-top: 50px;
+    margin-bottom: 0px;
+    background-color: #23abd3;
+    background-image: url(animation.gif);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position:center -25px; 
+}
+
+.wrapper-logo .row-logo.dotnet-word {
+    color: #fff;
+    font-size: 100pt;
+    font-style:italic;
+    font-family: 'Poppins';
+    text-shadow: 6px 6px #1c89a9;
+    height: 120px;
+    line-height: 120px;
+    text-align: center;
+}
+
+.wrapper-logo .row-logo.conf-word {
+    color: #23abd3;
+    font-size: 125pt;
+    letter-spacing:10px;
+    height: 190px;
+    line-height: 190px;
+    text-align: center;
+    font-family: 'Poppins';
+    text-shadow: -3px -3px 0 #fff, -3px 3px 0 #fff, -3px 0 0 #fff, 3px -3px 0 #fff, 3px 3px 0 #fff, 3px 0 0 #fff, 0 -3px 0 #fff, 0 3px 0 #fff;
+    font-weight: 900;
+}
+
+.wrapper-logo .row-logo.year-info {
+    position: relative;
+    width: 450px;
+    letter-spacing:65px;
+    font-size: 90pt;
+    line-height:90px;
+    font-family:'Poppins';
+    color: #fff;
+    border-top: 1px solid #fff;
+    border-bottom: 1px solid #fff;
+    margin:0px auto 0px auto;
+    padding:15px 0px 0px 0px;
+}
+
+.wrapper-logo .row-logo.year-info * {
+    margin: 0;
+    padding: 0;
+    border: none;
+}
+
+.wrapper-logo .row-logo.year-info span {
+    margin-top: -45px;
+    max-height: 95px;
+}
+
+.wrapper-logo .row-logo.date-info p {
+    font-family: 'Poppins';
+    letter-spacing:5px;
+    font-size: 48.7pt;
+    color: #fff;
+    text-align: center;
+}
+
+.count {
+    width: 450px;
+    font-family: 'Poppins';
+    background-color: #23abd3;
+    border-top: 10px solid #1c89a9;
+    color: #fff;
+    padding: 20px 0px 10px 0px;
+    margin: 30px auto 30px auto;
+    text-align:center;
+}
+.count #counter {
+  font-size: 48pt;
+  line-height:60px;
+}
+.count .info {
+  font-size: 16pt;
+}
+
+.footer-img {
+    display: block;
+    position: absolute;
+    right: 0;
+    margin-bottom: 50px;
+}
+
+@media (max-width: 685px) {
+    .wrapper-logo {
+        width: 305px;
+        margin-top:0px;
+        padding-top:0px;
+        background-position: 0 center;
+        height: 350px;
+    }
+
+    .wrapper-logo .row-logo.dotnet-word {
+        font-size: 60pt;
+        height: 50px;
+    }
+
+    .wrapper-logo .row-logo.conf-word {
+        font-size: 70pt;
+        height: 145px;
+    }
+
+    .wrapper-logo .row-logo.year-info {
+        width: 255px;
+        letter-spacing:28px;
+        font-size: 55pt;
+        line-height:55px;
+        padding:8px 0px 0px 0px;
+    }
+
+    .wrapper-logo .row-logo.date-info p {
+        font-size: 28pt;
+    }
+}
+
+@media screen and (max-width: 530px) {
+    .header-up .show-agenda {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 425px) {
+    .footer-img {
+        width: 80%;
+        left: 0;
+        right: 0;
+        margin: auto;
+    }
+}
+
+@media screen and (max-width: 385px) {
+  .wrapper-logo {
+        width: 205px;
+        margin-top:0px;
+        padding-top:0px;
+        background-position: 0 center;
+        height: 315px;
+    }
+
+    .wrapper-logo .row-logo.dotnet-word {
+        font-size: 45pt;
+        height: 50px;
+    }
+
+    .wrapper-logo .row-logo.conf-word {
+        font-size: 55pt;
+        height: 145px;
+    }
+
+    .wrapper-logo .row-logo.year-info {
+        width: 205px;
+        letter-spacing:28px;
+        font-size: 40pt;
+        line-height:38px;
+        padding:8px 0px 0px 0px;
+    }
+
+    .wrapper-logo .row-logo.date-info p {
+        font-size: 18pt;
+    }
+}
