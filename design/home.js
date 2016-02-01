@@ -6,7 +6,7 @@ Number.prototype.pad = function(size) {
     
 $(document).ready(function () {
   function displaytimer() {
-    var millis = (new Date(2016, 2, 4, 8, 30, 0)) - Date.now();
+    var millis = (Date.UTC(2016, 2, 4, 16, 30, 0)) - Date.now(); // 8:30 Seattle = 16:30 UTC
     var days = Math.floor(millis / (36e5 * 24)),
         hours = Math.floor((millis - (days * 24 *36e5)) / 36e5),
         mins = Math.floor((millis % 36e5) / 6e4),
