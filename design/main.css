@@ -4,8 +4,23 @@ body {
 #header {
     background-color: #23abd3;
 }
+#header .fr {
+  float:right;
+  margin-top:18px;
+  font-size:17pt;  
+}
+#header .fr a {
+  margin-right:10px;
+  color:#115568;  
+}
 #body {
   font:13pt 'open sans';
+}
+#body .cl {
+  text-align:center;
+}
+#body .cl .sep {
+  margin:0px 10px 0px 10px;
 }
 #body h1 {
   font:bold 25pt Poppins;
