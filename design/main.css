@@ -140,6 +140,12 @@ body {
     margin-bottom: 50px;
 }
 
+#fsharp-logo {
+  float:right;
+  width:200px;
+}
+
+
 @media (max-width: 685px) {
     .wrapper-logo {
         width: 305px;
@@ -179,6 +185,13 @@ body {
 }
 
 @media screen and (max-width: 425px) {
+    #fsharp-logo {
+      float:none;
+      margin:0px auto 0px auto;
+    }
+    #fsharp-logo-wrapper {
+      text-align:center;
+    }    
     .footer-img {
         width: 80%;
         left: 0;
