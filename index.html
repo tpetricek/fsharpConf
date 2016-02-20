@@ -23,7 +23,7 @@
   <script src="design/home.js"></script>
 </head>
 <body>
-    <div id="header">
+    <div class="header">
         <div class="header-up">
             <div class="container">
               <div class="row">
@@ -60,7 +60,7 @@
             </div>
         </div>
     </div>
-    <div id="body" class="container"><div class="row">
+    <div class="body container"><div class="row">
     <div class="col-md-2"></div><div class="col-md-8">
     
     <h1>Welcome to fsharpConf 2016!</h1>
@@ -84,22 +84,77 @@
       <a title="Add to your calendar (ics)" href="fsharpconf.ics"><i class="fa fa-calendar"></i> Download iCalendar</a>
     </p>
 
-    <h2>Agenda coming soon!</h2>
     <p>
-      This one-day event will feature more than 8 hours of talks covering:
+      This one-day event will feature 9 talks covering web development, microservice architecture,
+      running F# in cross-platform ecosystems, data science, software testing and much more!
     </p>
-    <ul>
-      <li><strong>Getting started</strong> with F# and integrating it with a larger .NET ecosystem</li>
-      <li>How F# helps <strong>data scientists</strong> extract useful knowledge from data?</li>
-      <li>Developing modern <strong>cloud and web applications</strong> with microservices</li>
-      <li>Building native <strong>cross-platform mobile apps</strong> with F# and Xamarin</li>
-    </ul>
-    <p>We're working on finalizing the agenda and we'll share it soon. Do you have a talk idea
-      or a topic suggestion? Tweet us at <a href="https://twitter.com/fsharpconf">@fsharpconf</a>,
-      use the <a href="https://twitter.com/search?q=%23fsharpconf">#fsharpconf</a> hash tag 
-      or contact any of <a href="#org">the organizers</a>.
+    <p>For live Q&amp;A, tweet us at <a href="https://twitter.com/fsharpconf">@fsharpconf</a> or
+      use the <a href="https://twitter.com/search?q=%23fsharpconf">#fsharpconf</a> hash tag!
     </p>
     
+
+    <br /><br />
+    </div><div class="col-md-2"></div>
+    </div>
+    </div>
+    
+    
+    <div class="header">
+        <div class="container" id="agenda-wrapper">
+            <div class="row">
+                <div class="col-md-2"></div>
+                <div class="col-md-8">
+                  
+                  <br />
+                  <h2>Conference Agenda</h2>
+                  
+                  <table class="table">
+                  <tbody>                    
+                    <tr class="sep"><td class="time">08:30 PST <span class="gmt">(16:30 GMT)</span></td><td><img src="photos/don.png"     /><h3><a href="https://channel9.msdn.com/Events/FSharp-Events/fsharpConf-2016/Welcome-to-fsharpConf">Welcome to fsharpConf</a></h3><p>Don Syme and Tomas Petricek</p></td></tr>
+                                <tr><td class="time">09:00 PST <span class="gmt">(17:00 GMT)</span></td><td><img src="photos/evelina.jpg" /><h3><a href="https://channel9.msdn.com/Events/FSharp-Events/fsharpConf-2016/The-Force-Awakens" />The F#orce Awakens</a></h3><p>Evelina Gabasova</p></td></tr>
+                                <tr><td class="time">09:45 PST <span class="gmt">(17:45 GMT)</span></td><td><img src="photos/rachel.jpg"  /><h3><a href="https://channel9.msdn.com/Events/FSharp-Events/fsharpConf-2016/Real-World-Microservices">Patterns and Practices for Real-World Event-Driven Microservices</a></h3><p>Rachel Reese</p></td></tr>
+                    <tr class="sep"><td class="time">10:30 PST <span class="gmt">(18:30 GMT)</span></td><td>                                <h3>Demos and Community</a></h3><p></p></td></tr>
+                                <tr><td class="time">11:00 PST <span class="gmt">(19:00 GMT)</span></td><td><img src="photos/goswin.png"  /><h3><a href="https://channel9.msdn.com/Events/FSharp-Events/fsharpConf-2016/The-3D-Geometry-of-Louvre-Abu-Dhabi">The 3D Geometry of Louvre Abu Dhabi</a></h3><p>Goswin Rothenthal</p></td></tr>
+                                <tr><td class="time">11:45 PST <span class="gmt">(19:45 GMT)</span></td><td><img src="photos/mark.jpg"    /><h3><a href="https://channel9.msdn.com/Events/FSharp-Events/fsharpConf-2016/Types-Properties-Software">Types + Properties = Software</a></h3><p>Mark Seemann</p></td></tr>
+                    <tr class="sep"><td class="time">12:30 PST <span class="gmt">(20:30 GMT)</span></td><td>                                <h3>Demos and Community</a></h3><p></p></td></tr>
+                                <tr><td class="time">13:00 PST <span class="gmt">(21:00 GMT)</span></td><td><img src="photos/henrik.png"  /><h3><a href="https://channel9.msdn.com/Events/FSharp-Events/fsharpConf-2016/F-Microservices-with-Logging-Tracing-and-More-on-Docker">F# Microservices with Logging, Tracing and More on Docker</a></h3><p>Henrik Feldt</p></td></tr>
+                                <tr><td class="time">13:45 PST <span class="gmt">(21:45 GMT)</span></td><td><img src="photos/chris.jpg"   /><h3><a href="https://channel9.msdn.com/Events/FSharp-Events/fsharpConf-2016/Web-UI-Automation-with-F-and-canopy">Web UI Automation with F# and canopy</a></h3><p>Chris Holt</p></td></tr>
+                    <tr class="sep"><td class="time">14:30 PST <span class="gmt">(22:30 GMT)</span></td><td>                                <h3>Demos and Community</a></h3><p></p></td></tr>
+                                <tr><td class="time">15:00 PST <span class="gmt">(23:00 GMT)</span></td><td><img src="photos/faisal.jpg"  /><h3><a href="https://channel9.msdn.com/Events/FSharp-Events/fsharpConf-2016/Android-Watch-Gesture-Recognition-with-Functional-State-Machines">Android Watch Gesture Recognition with Functional State Machines</a></h3><p>Faisal Waris</p></td></tr>
+                                <tr><td class="time">15:45 PST <span class="gmt">(23:45 GMT)</span></td><td><img src="photos/alena.png"   /><h3><a href="https://channel9.msdn.com/Events/FSharp-Events/fsharpConf-2016/Cassandra-Docker-and-F-Awesomeness">Cassandra, Docker and F# Awesomeness</a></h3><p>Alena Hall</p></td></tr>
+                    <tr class="sep"><td class="time">16:30 PST <span class="gmt">(00:30 GMT)</span></td><td>                                <h3>Demos and Community Chat</td><p></p></tr></a></h3>          
+                                <tr><td class="time">17:00 PST <span class="gmt">(01:00 GMT)</span></td><td><img src="photos/felienne.jpg"/><h3><a href="https://channel9.msdn.com/Events/FSharp-Events/fsharpConf-2016/A-Boardgame-Night-with-Geeks">A Boardgame Night with Geeks</a></h3><p>Felienne Hermans</p></td></tr>
+                                <tr><td class="time">17:45 PST <span class="gmt">(01:45 GMT)</span></td><td><img src="photos/david.jpg"   /><h3><a href="https://channel9.msdn.com/Events/FSharp-Events/fsharpConf-2016/QA-with-the-F-Team-and-Community">Q&amp;A with the F# Team and Community</a></h3><p>David Stephens and Tomas Petricek</p></td></tr>
+                  </tbody>
+                  </table>
+                  
+                  <br />
+                  <p>
+                    In the schedule, PST is the time in Seattle, Washington (Pacific Standard Time)
+                    and GMT is the time in London, UK (Greenwich Mean Time).
+                  </p>
+                  <p>
+                    Starting time for other places in the world is 
+                    <strong>New York</strong> 11:30 (PST+3), 
+                    continental <strong>Europe</strong> 17:30 (GMT+1), 
+                    <strong>New Delhi</strong> 22:00 (GMT+5:30)
+                    <strong>Tokyo</strong> 1:30 (GMT+9).
+                    <strong>Sydney</strong> 3:30 (GMT+11).
+                    If you need to sleep, don't worry, the talks will be recorded :-).
+                  </p>
+                  <br />
+                  <br />
+                  
+                </div>
+                <div class="col-md-2"></div>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="body container"><div class="row">
+    <div class="col-md-2"></div><div class="col-md-8">
+    <br />
     <h2>About F# and fsharpConf</h2>
     <div id="fsharp-logo-wrapper">
       <a href="http://www.fsharp.org"><img id="fsharp-logo" alt="F# Software Foundation" src="design/logo.png" /></a>
@@ -119,7 +174,7 @@
       collaborating with creators of <strong>dotNetConf</strong> on putting together a virtual 
       event with the F# focus! You can watch <a href="https://channel9.msdn.com/events/dotnetConf/2015">dotNetConf 2015</a> recordings
       on Channel 9.</p> 
-      
+    
     <h3>Making the Case for using F#</h3>
     <p>Can't wait for this awesome new content? Check out an introductory video that Seth Juarez
       did with Tomas Petricek last summer. This is where the idea of <strong>fsharpConf</strong>
@@ -129,6 +184,7 @@
     <iframe src="https://channel9.msdn.com/Blogs/Seth-Juarez/Making-the-Case-for-using-F-with-Tomas-Petricek/player" 
     width="530" height="300" allowFullScreen frameBorder="0"></iframe></div>
     
+
     <h2>The fsharpConf team</h2>
     <p><a name="org"></a> Do you have any suggestions, feedback or a talk idea? 
       Please let us know! Tweet us at <a href="https://twitter.com/fsharpconf">@fsharpconf</a>,
@@ -155,6 +211,7 @@
     </div><div class="col-md-2"></div>
     </div>
     </div>
+    
 <script>
   (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
   (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),

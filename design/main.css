@@ -1,44 +1,48 @@
 body {
     background-color: #f5f5f5;
 }
-#header {
+.header {
     background-color: #23abd3;
 }
-#header .fr {
+.header .fr {
   float:right;
   margin-top:18px;
   font-size:17pt;  
 }
-#header .fr a {
+.header .fr a {
   margin-right:10px;
+}
+.header a {
   color:#115568;  
 }
-#body {
+.body {
   font:13pt 'open sans';
 }
-#body .cl {
+.body .cl {
   text-align:center;
+  margin-bottom:30px;
 }
-#body .cl .sep {
+.body .cl .sep {
   margin:0px 10px 0px 10px;
 }
-#body h1 {
+.body h1 {
   font:bold 25pt Poppins;
   color:#115568;
   margin-top:40px;
 }
-#body h2 {
+.body h2 {
   font:bold 20pt Poppins;
   color:#115568;
 }
-#body h3 {
+.body h3 {
   margin-top:30px;
   font:bold 16pt Poppins;
   color:#115568;
 }
-#body li {
+.body li {
   margin-bottom:6px;
 }
+
 .header-up {
     background-color: #fff;
     color:#115568;
@@ -230,4 +234,56 @@ body {
     .wrapper-logo .row-logo.date-info p {
         font-size: 18pt;
     }
+}
+
+#agenda-wrapper  {
+  font:13pt 'open sans';
+  color:white;
+}
+#agenda-wrapper td {
+  background:#1C89A9;
+  padding:10px 0px 10px 0px;
+}
+#agenda-wrapper .sep td {
+  background:#55A7BF;
+}
+#agenda-wrapper .time {
+  padding-top:12px;
+  width:120px;
+  text-align:center;
+}
+#agenda-wrapper td .gmt {
+  font-size:11pt;
+  margin-top:5px;
+  display:block;
+}
+#agenda-wrapper td img {
+  float:left;
+  width:100px;
+}
+#agenda-wrapper td h3, #agenda-wrapper td p {
+  margin-left:120px;
+}
+#agenda-wrapper h2 {
+  font:bold 20pt Poppins;
+  margin-bottom:15px;
+  color:white;
+}
+#agenda-wrapper h3 {
+  font:17pt Poppins;
+  color:white;
+  margin-top:0px;
+  margin-bottom:0px;
+}
+#agenda-wrapper h3 a {
+  color:white;
+}
+
+@media screen and (max-width: 425px) {
+  #agenda-wrapper img {
+    display:none;
+  }
+  #agenda-wrapper td h3, #agenda-wrapper td p {
+    margin-left:10px;
+  }  
 }
