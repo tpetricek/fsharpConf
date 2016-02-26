@@ -287,3 +287,11 @@ body {
     margin-left:10px;
   }  
 }
+
+#partners img {
+  width:15%;
+  margin:20px 5px 20px 5px;
+}
+#partners {
+  text-align:center;
+}
