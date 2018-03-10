@@ -2,7 +2,7 @@ body {
     background-color: #f5f5f5;
 }
 .header {
-    background-color: #D17429;
+    background-color: #23abd3;
 }
 .header .fr {
   float:right;
@@ -13,7 +13,7 @@ body {
   margin-right:10px;
 }
 .header a {
-  color:#683E18;  
+  color:#115568;  
 }
 .body {
   font:13pt 'open sans';
@@ -27,17 +27,17 @@ body {
 }
 .body h1 {
   font:bold 25pt Poppins;
-  color:#683E18;
+  color:#115568;
   margin-top:40px;
 }
 .body h2 {
   font:bold 20pt Poppins;
-  color:#683E18;
+  color:#115568;
 }
 .body h3 {
   margin-top:30px;
   font:bold 16pt Poppins;
-  color:#683E18;
+  color:#115568;
 }
 .body li {
   margin-bottom:6px;
@@ -45,8 +45,8 @@ body {
 
 .header-up {
     background-color: #fff;
-    color:#683E18;
-    border-bottom: 8px solid #A86322;
+    color:#115568;
+    border-bottom: 8px solid #1c89a9;
 }
 
 .wrapper-logo {
@@ -56,7 +56,7 @@ body {
     margin-top: 0px;
     padding-top: 50px;
     margin-bottom: 0px;
-    background-color: #D17429;
+    background-color: #23abd3;
     background-image: url(animation.gif);
     background-repeat: no-repeat;
     background-size: 100%;
@@ -68,14 +68,14 @@ body {
     font-size: 100pt;
     font-style:italic;
     font-family: 'Poppins';
-    text-shadow: 6px 6px #A86322;
+    text-shadow: 6px 6px #1c89a9;
     height: 120px;
     line-height: 120px;
     text-align: center;
 }
 
 .wrapper-logo .row-logo.conf-word {
-    color: #D17429;
+    color: #23abd3;
     font-size: 125pt;
     letter-spacing:10px;
     height: 190px;
@@ -121,8 +121,8 @@ body {
 
 .count, .onair {
     font-family: 'Poppins';
-    background-color: #D17429;
-    border-top: 10px solid #A86322;
+    background-color: #23abd3;
+    border-top: 10px solid #1c89a9;
     color: #fff;
     padding: 20px 0px 10px 0px;
     margin: 30px auto 30px auto;
@@ -262,7 +262,7 @@ body {
   color:white;
 }
 #agenda-wrapper td {
-  background:#A86322;
+  background:#1C89A9;
   padding:10px 0px 10px 0px;
 }
 #agenda-wrapper .sep td {
