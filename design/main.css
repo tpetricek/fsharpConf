@@ -11,6 +11,7 @@ body {
 }
 .header .fr a {
   margin-right:10px;
+  text-decoration:none;
 }
 .header a {
   color:#683E18;  
