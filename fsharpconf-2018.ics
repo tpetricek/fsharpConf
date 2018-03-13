@@ -20,14 +20,14 @@ END:DAYLIGHT
 END:VTIMEZONE
 BEGIN:VEVENT
 CLASS:PUBLIC
-CREATED:20160201T160858Z
-DESCRIPTION:Join us on March 4\, 2016 for a free virtual F# event hosted by
-	 Channel 9!\n\n * For live streaming\, go to: http://fsharpconf.com/\n * F
-	or Q&A tweet at @fsharpconf or use the #fsharpconf hash tag.\n
-DTEND;TZID="Pacific Standard Time":20160304T180000
+CREATED:20180313T135703Z
+DESCRIPTION:Join us on 16 April\, 2018 for a free virtual F# event hosted b
+	y Channel 9!\n\n * For live streaming\, go to: http://fsharpconf.com/\n * 
+	For Q&A tweet at @fsharpconf or use the #fsharpconf hash tag.\n
+DTEND;TZID="Pacific Standard Time":20180416T180000
 DTSTAMP:20160201T160858Z
-DTSTART;TZID="Pacific Standard Time":20160304T083000
-LAST-MODIFIED:20160201T160858Z
+DTSTART;TZID="Pacific Standard Time":20180416T083000
+LAST-MODIFIED:20180313T135703Z
 LOCATION:http://fsharpconf.com/
 PRIORITY:5
 SEQUENCE:0
@@ -37,8 +37,8 @@ UID:040000008200E00074C5B7101A82E0080000000090125BDB0A5DD101000000000000000
 	0100000009A0A372E66453E4A841B906B65781758
 X-ALT-DESC;FMTTYPE=text/html:<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2//E
 	N">\n<HTML>\n<HEAD>\n<META NAME="Generator" CONTENT="MS Exchange Server ve
-	rsion rmj.rmm.rup.rpr">\n<TITLE></TITLE>\n</HEAD>\n<BODY>\n<!-- Converted 
-	from text/plain format -->\n\n<P><FONT SIZE=2>Join us on March 4\, 2016 fo
+	rsion 16.0.9029.2147">\n<TITLE></TITLE>\n</HEAD>\n<BODY>\n<!-- Converted f
+	rom text/plain format -->\n\n<P><FONT SIZE=2>Join us on 16 April\, 2018 fo
 	r a free virtual F# event hosted by Channel 9!</FONT>\n</P>\n\n<P><FONT SI
 	ZE=2>&nbsp\;* For live streaming\, go to: <A HREF="http://fsharpconf.com/"
 	>http://fsharpconf.com/</A></FONT>\n\n<BR><FONT SIZE=2>&nbsp\;* For Q&amp\
@@ -49,10 +49,5 @@ X-MICROSOFT-CDO-IMPORTANCE:1
 X-MICROSOFT-DISALLOW-COUNTER:FALSE
 X-MS-OLK-AUTOFILLLOCATION:FALSE
 X-MS-OLK-CONFTYPE:0
-BEGIN:VALARM
-TRIGGER:-PT15M
-ACTION:DISPLAY
-DESCRIPTION:Reminder
-END:VALARM
 END:VEVENT
 END:VCALENDAR
