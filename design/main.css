@@ -263,11 +263,11 @@ body {
   color:white;
 }
 #agenda-wrapper td {
-  background:#A86322;
-  padding:10px 0px 10px 0px;
+  background:#BC702D;
+  padding:10px 10px 10px 0px;
 }
 #agenda-wrapper .sep td {
-  background:#55A7BF;
+  background:#D39C58;
 }
 #agenda-wrapper .time {
   padding-top:12px;
