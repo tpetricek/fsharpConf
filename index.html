@@ -19,7 +19,7 @@
   <link href='http://fonts.googleapis.com/css?family=Poppins' rel='stylesheet' type='text/css' />
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
   <link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css' />
-  <link href="design/main.css?v2" rel="stylesheet" />
+  <link href="design/main.css?v3" rel="stylesheet" />
   <script src="design/home.js"></script>
 </head>
 <body>
@@ -29,7 +29,7 @@
               <div class="row">
                 <div class="col-md-2"></div><div class="col-md-8">
                   <div class="fr">
-                    <a href="2016" title="fsharpConf 2016" style="margin-right:20px;">2016</a>
+                    <a href="2016" title="fsharpConf 2016" style="font-weight:500;position:relative;top:1px;margin-right:10px;">2016</a>
                     <a href="http://twitter.com/fsharpconf" title="Follow us on Twitter"><i class="fa fa-twitter"></i></a>
                     <a title="Add to your Google calendar!" href="http://www.google.com/calendar/event?action=TEMPLATE&dates=20180416T143000Z%2F20180417T003000Z&text=fsharpConf&location=www.fsharpconf.com&details=Join%20us%20on%20April%2016%2C%202018%20for%20a%20free%20virtual%20F%23%20event%20hosted%20by%20Channel%209."><i class="fa fa-google-plus"></i></a>
                     <a title="Add to your calendar (ics)" href="fsharpconf-2018.ics"><i class="fa fa-calendar"></i></a>
@@ -77,12 +77,13 @@
     <div class="count">
       <span id="counter"></span><br />
       <span class="info">days : hours : minutes : seconds</span>
+      <span class="info-short">dd : hh : mm : ss</span>
     </div>
 
     <p class="cl">
-      <a href="http://twitter.com/fsharpconf" title="Follow us on Twitter"><i class="fa fa-twitter"></i> Follow on Twitter</a> <span class="sep">|</span>
-      <a title="Add to your Google calendar!" href="http://www.google.com/calendar/event?action=TEMPLATE&dates=20180416T143000Z%2F20180417T003000Z&text=fsharpConf&location=www.fsharpconf.com&details=Join%20us%20on%20April%2016%2C%202018%20for%20a%20free%20virtual%20F%23%20event%20hosted%20by%20Channel%209."><i class="fa fa-google-plus"></i> Google Calendar</a> <span class="sep">|</span>
-      <a title="Add to your calendar (ics)" href="fsharpconf-2018.ics"><i class="fa fa-calendar"></i> Download iCalendar</a>
+      <a href="http://twitter.com/fsharpconf" title="Follow us on Twitter"><i class="fa fa-twitter"></i> <span class="hidden-xs">Follow on Twitter</span></a> <span class="sep">|</span>
+      <a title="Add to your Google calendar!" href="http://www.google.com/calendar/event?action=TEMPLATE&dates=20180416T143000Z%2F20180417T003000Z&text=fsharpConf&location=www.fsharpconf.com&details=Join%20us%20on%20April%2016%2C%202018%20for%20a%20free%20virtual%20F%23%20event%20hosted%20by%20Channel%209."><i class="fa fa-google-plus"></i> <span class="hidden-xs">Google Calendar</span></a> <span class="sep">|</span>
+      <a title="Add to your calendar (ics)" href="fsharpconf-2018.ics"><i class="fa fa-calendar"></i> <span class="hidden-xs">Download iCalendar</span></a>
     </p>
 <!--
     <h2>Agenda coming soon!</h2>
@@ -128,16 +129,16 @@
                     <tr class="sep"><td class="time">08:30 PDT <span class="gmt">(16:30 BST)</span></td><td><img src="photos/don.png"       /><h3>Welcome to fsharpConf</h3><p>Don Syme and Tomas Petricek</p></td></tr>
                                 <tr><td class="time">09:00 PDT <span class="gmt">(17:00 BST)</span></td><td><img src="photos/tamizh.jpg"   /><h3>Concurrent programming with F#</h3><p>Tamizh Vendan</p></td></tr>
                                 <tr><td class="time">09:45 PDT <span class="gmt">(17:45 BST)</span></td><td><img src="photos/gien.jpg"    /><h3>The curious case of Freya, Suave and Giraffe: Reducing risks in picking a new tech</h3><p>Gien Verschatse</p></td></tr>
-                    <tr class="sep"><td class="time">10:30 PDT <span class="gmt">(18:30 BST)</span></td><td><img src="photos/na.jpg"      /><h3>SHORT TALK</h3><p>Coming soon</p></td></tr>
+                    <tr class="sep"><td class="time">10:30 PDT <span class="gmt">(18:30 BST)</span></td><td><img src="photos/alfonso.jpg"      /><h3>INTERVIEW: The astounding fable of Fable</h3><p>Alfonso Garcia-Caro</p></td></tr>
                                 <tr><td class="time">11:00 PDT <span class="gmt">(19:00 BST)</span></td><td><img src="photos/jim.jpg"    /><h3>Building mobile apps using Xamarin and F#</h3><p>Jim Bennett</p></td></tr>
                                 <tr><td class="time">11:45 PDT <span class="gmt">(19:45 BST)</span></td><td><img src="photos/evelina.jpg"      /><h3>How to look like a statistician: a developer's guide to probabilistic programming</h3><p>Evelina Gabasova</p></td></tr>
-                    <tr class="sep"><td class="time">12:30 PDT <span class="gmt">(20:30 BST)</span></td><td><img src="photos/na.jpg" /><h3>SHORT TALK</h3><p>Coming soon</p></td></tr>
+                    <tr class="sep"><td class="time">12:30 PDT <span class="gmt">(20:30 BST)</span></td><td><img src="photos/ody.jpg" /><h3>INTERVIEW: A journey from learning F# to contributing to the compiler</h3><p>Ody Mbegbu</p></td></tr>
                                 <tr><td class="time">13:00 PDT <span class="gmt">(21:00 BST)</span></td><td><img src="photos/gina.jpg"    /><h3>Distributed tracing, lessons learned</h3><p>Gina Marie Maini</p></td></tr>
                                 <tr><td class="time">13:45 PDT <span class="gmt">(21:45 BST)</span></td><td><img src="photos/vincent.jpg"     /><h3>F# from the trenches</h3><p>Vincent Labrecque</p></td></tr>
-                    <tr class="sep"><td class="time">14:30 PDT <span class="gmt">(22:30 BST)</span></td><td><img src="photos/na.jpg"    /><h3>SHORT TALK</h3><p>Coming soon</p></td></tr>
+                    <tr class="sep"><td class="time">14:30 PDT <span class="gmt">(22:30 BST)</span></td><td><img src="photos/edgar.jpg"    /><h3>DEMO: Describing the world to visually impaired with F# and Cognitive Services</h3><p>Edgar Sánchez</p></td></tr>
                                 <tr><td class="time">15:00 PDT <span class="gmt">(23:00 BST)</span></td><td><img src="photos/john.jpg"    /><h3>A tale of two languages: F# & Q#</h3><p>John Azariah</p></td></tr>
                                 <tr><td class="time">15:45 PDT <span class="gmt">(23:45 BST)</span></td><td><img src="photos/jeremy.jpg"     /><h3>The SAFE Stack: <br />Rapid full stack F# development</h3><p>Jeremy Abbott</p></td></tr>
-                    <tr class="sep"><td class="time">16:30 PDT <span class="gmt">(00:30 BST)</span></td><td><img src="photos/na.jpg" /><h3>SHORT TALK</h3><p>Coming soon</p></td></tr>
+                    <tr class="sep"><td class="time">16:30 PDT <span class="gmt">(00:30 BST)</span></td><td><img src="photos/reed.jpg" /><h3>INTERVIEW: What's new at the F# Software Foundation</h3><p>Reed Copsey, Jr.</p></td></tr>
                                 <tr><td class="time">17:00 PDT <span class="gmt">(01:00 BST)</span></td><td><img src="photos/will.jpg"  /><h3>A bit of Foom &amp;<br /> F# and hardware intrinsics in CoreCLR</h3><p>Will Smith and Tanner Gooding</p></td></tr>
                                 <tr><td class="time">17:45 PDT <span class="gmt">(01:45 BST)</span></td><td><img src="photos/lena.jpg"     /><h3>Q&amp;A with the F# team and community</h3><p>Lena Hall, Phillip Carter and Tomas Petricek</p></td></tr>
                   </tbody>
@@ -196,7 +197,7 @@
     
     <div style="text-align:center">
     <a href="https://channel9.msdn.com/events/FSharp-Events/fsharpConf-2016">
-      <img src="design/video.jpg" style="width:530px;margin:20px 0px 20px 0px" /></a></div>
+      <img src="design/video.jpg" style="max-width:530px;margin:20px 0px 20px 0px;width:90%" /></a></div>
     
     <h2>The fsharpConf team</h2>
     <p><a name="org"></a> Do you have any suggestions, feedback or a talk idea? 

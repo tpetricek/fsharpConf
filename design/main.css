@@ -4,9 +4,12 @@ body {
 .header {
     background-color: #D17429;
 }
+.header-up h1 {
+  margin:0px !important;
+  padding:0px !important;
+}
 .header .fr {
   float:right;
-  margin-top:18px;
   font-size:17pt;  
 }
 .header .fr a {
@@ -48,6 +51,7 @@ body {
     background-color: #fff;
     color:#683E18;
     border-bottom: 8px solid #A86322;
+    padding:10px 0px 10px 0px;
 }
 
 .wrapper-logo {
@@ -130,7 +134,7 @@ body {
     text-align:center;
 }
 .count {
-  width: 450px;
+  max-width: 450px;
 }
 .onair {
   width:80%;
@@ -157,6 +161,15 @@ body {
 }
 .count .info {
   font-size: 16pt;
+}
+.count .info-short {
+  display:none;
+}
+@media only screen and (max-width:400px) {
+  .header-up h1 { display:none; }
+  .count #counter { font-size:28pt; }
+  .count .info { display:none; }
+  .count .info-short { display:block; }
 }
 
 .footer-img {
@@ -305,9 +318,23 @@ body {
   #agenda-wrapper img {
     display:none;
   }
+  #agenda-wrapper td {
+    display:inline-block;
+    width:100% !important;
+    text-align:left !important;
+    padding:5px 10px 5px 10px;
+  }
   #agenda-wrapper td h3, #agenda-wrapper td p {
-    margin-left:10px;
+    margin:0px;
+    display:inline;
   }  
+  #agenda-wrapper .time {
+    background:#87491B !important;
+  }
+  #agenda-wrapper td .gmt {
+    display:inline;
+    margin-left:10px;
+  }
 }
 
 #partners img {
