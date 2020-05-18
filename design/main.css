@@ -278,16 +278,29 @@ body {
     }
 }
 
+.modal-body {
+  padding:0px 50px 20px 50px !important;
+  font-family: 'Poppins';
+}
+.modal-body img {
+  float:right;
+  max-width:250px;
+  margin:10px 0px 30px 30px;
+}
+
 #agenda-wrapper  {
   font:13pt 'open sans';
   color:white;
 }
 #agenda-wrapper td {
-  background:#BC702D;
+  background:#942DBC;
   padding:10px 10px 10px 0px;
 }
 #agenda-wrapper .sep td {
-  background:#D39C58;
+  background:#BB58D3;
+}
+#agenda-wrapper .photo {
+  padding-left:20px;
 }
 #agenda-wrapper .time {
   padding-top:12px;
@@ -336,7 +349,7 @@ body {
     display:inline;
   }
   #agenda-wrapper .time {
-    background:#87491B !important;
+    background:#762496 !important;
   }
   #agenda-wrapper td .gmt {
     display:inline;
