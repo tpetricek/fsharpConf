@@ -299,6 +299,9 @@ body {
 #agenda-wrapper .sep td {
   background:#BB58D3;
 }
+#agenda-wrapper .odd td {
+  background:#7E26A0;
+}
 #agenda-wrapper .photo {
   padding-left:20px;
 }
