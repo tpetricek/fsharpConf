@@ -341,6 +341,12 @@ body {
   #agenda-wrapper img {
     display:none;
   }
+  #agenda-wrapper .gmt br {
+    display:none;
+  }
+  #agenda-wrapper .pdt {
+    margin-left:15px;
+  }
   #agenda-wrapper td {
     display:inline-block;
     width:100% !important;
@@ -366,4 +372,7 @@ body {
 }
 #partners {
   text-align:center;
+}
+.modal-footer {
+  clear:both;
 }
