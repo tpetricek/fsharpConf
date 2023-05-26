@@ -1,0 +1,11 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+BEGIN:VEVENT
+CLASS:PUBLIC
+DESCRIPTION:Join us on 26 June\, 2023 for a free virtual F# event run by the F# community for the F# community!\n \n * For live streaming link\, go to: http://fsharpconf.com/ \n * For Q&A use the YouTube comments\, tweet at @fsharpconf or toot @fsharpconf@mastodon.social. \n\n
+DTSTART:20230626T130000Z
+DTEND:20230626T200000Z
+LOCATION:http://fsharpconf.com/
+SUMMARY;LANGUAGE=en-us:fsharpConf 2023
+END:VEVENT
+END:VCALENDAR

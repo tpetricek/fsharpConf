@@ -16,7 +16,7 @@ body {
   font-size:17pt;
 }
 .header .fr a {
-  margin-right:10px;
+  margin-right:5px;
   text-decoration:none;
 }
 .header a {
@@ -141,7 +141,7 @@ body {
     text-align:center;
 }
 .count {
-  max-width: 450px;
+  max-width: 550px;
 }
 .onair {
   width:80%;
@@ -163,16 +163,16 @@ body {
   text-decoration:underline;
 }
 .count #counter {
-  font-size: 48pt;
-  line-height:60px;
+  font-size: 54pt;
+  line-height:80px;
 }
 .count .info {
-  font-size: 16pt;
+  font-size: 18pt;
 }
 .count .info-short {
   display:none;
 }
-@media only screen and (max-width:500px) {
+@media only screen and (max-width:600px) {
   .header-up h1 { display:none; }
 }
 @media only screen and (max-width:400px) {

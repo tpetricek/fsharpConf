@@ -4,10 +4,9 @@ Number.prototype.pad = function(size) {
   return s;
 };
 
-/*
 window.onload = function () {
   function displaytimer() {
-    var millis = (Date.UTC(2020, 5, 5, 9, 0, 0)) - Date.now(); // 11:00 CST = 9:00 UTC
+    var millis = (Date.UTC(2023, 5, 26, 13, 0, 0)) - Date.now(); // 11:00 CST = 9:00 UTC
     var days = Math.floor(millis / (36e5 * 24)),
         hours = Math.floor((millis - (days * 24 * 36e5)) / 36e5),
         mins = Math.floor((millis % 36e5) / 6e4),
@@ -18,4 +17,3 @@ window.onload = function () {
   displaytimer();
   setInterval(displaytimer, 1000);
 };
-*/
