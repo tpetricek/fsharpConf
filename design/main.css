@@ -297,14 +297,14 @@ body {
   color:white;
 }
 #agenda-wrapper td {
-  background:#942DBC;
+  background:#889108;
   padding:10px 10px 10px 0px;
 }
 #agenda-wrapper .sep td {
   background:#BB58D3;
 }
 #agenda-wrapper .odd td {
-  background:#7E26A0;
+  background:#5F6606;
 }
 #agenda-wrapper .photo {
   padding-left:20px;
