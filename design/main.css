@@ -53,8 +53,12 @@ body {
 .header-up {
     background-color: #fff;
     color:#4C3A00;
-    border-bottom: 8px solid #859003;
     padding:10px 0px 10px 0px;
+    border-bottom: 8px solid #859003;
+}
+
+.header-bot {
+  border-top: 8px solid #859003;
 }
 
 .wrapper-logo {
@@ -175,9 +179,9 @@ body {
 @media only screen and (max-width:600px) {
   .header-up h1 { display:none; }
 }
-@media only screen and (max-width:400px) {
+@media only screen and (max-width:420px) {
   .header-up h1 { display:none; }
-  .count #counter { font-size:32pt; }
+  .count #counter { font-size:38pt; }
   .count .info { display:none; }
   .count .info-short { display:block; }
 }
@@ -301,13 +305,13 @@ body {
   padding:10px 10px 10px 0px;
 }
 #agenda-wrapper .sep td {
-  background:#BB58D3;
+  background:#494F00;
 }
 #agenda-wrapper .odd td {
-  background:#5F6606;
+  background:#6A7006;
 }
 #agenda-wrapper .photo {
-  padding-left:20px;
+  padding-left:0px;
 }
 #agenda-wrapper .time {
   padding-top:12px;
@@ -341,9 +345,17 @@ body {
   color:white;
 }
 
-@media screen and (max-width: 425px) {
+@media screen and (max-width: 380px) {
   #agenda-wrapper img {
     display:none;
+  }
+}
+@media screen and (max-width: 520px) {
+  #agenda-wrapper .photo {
+    padding-left:20px;
+  }
+  #agenda-wrapper img {
+    padding:0px 10px 10px 0px;
   }
   #agenda-wrapper .gmt br {
     display:none;
@@ -362,7 +374,7 @@ body {
     display:inline;
   }
   #agenda-wrapper .time {
-    background:#762496 !important;
+    background:#494F00 !important;
   }
   #agenda-wrapper td .gmt {
     display:inline;
@@ -379,4 +391,26 @@ body {
 }
 .modal-footer {
   clear:both;
+}
+
+
+.ukr {
+  height:100px;
+}
+.ukr1 {
+  background:#0057b7;
+}
+.ukr2 {
+  background:#ffd700;
+}
+.ukr h1 {
+  color:white;
+  margin-top:30px;
+  margin-bottom:0px;
+  font:bold 24pt Poppins;
+}
+.ukr p {
+  color:black;
+  margin-top:10px;
+  font:bold 13pt 'open sans';
 }
