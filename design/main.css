@@ -20,7 +20,7 @@ body {
   text-decoration:none;
 }
 .header a {
-  color:#4C3A00;
+  color:white;
 }
 .body {
   font:13pt 'open sans';
@@ -51,14 +51,14 @@ body {
 }
 
 .header-up {
-    background-color: #fff;
-    color:#4C3A00;
+    color:white;
     padding:10px 0px 10px 0px;
-    border-bottom: 8px solid #859003;
+    background: #859003;
+    border-top: solid 10px #687003;
 }
 
 .header-bot {
-  border-top: 8px solid #859003;
+  border-bottom: solid 10px #687003;
 }
 
 .wrapper-logo {
@@ -394,8 +394,14 @@ body {
 }
 
 
-.ukr {
-  height:100px;
+.ukr { height:auto; padding:10px 0px 10px 0px; }
+
+@media only screen and (min-width:600px) {
+  .ukr2 p { margin-right:150px; }
+}
+
+.ukr button a {
+  color:white;
 }
 .ukr1 {
   background:#0057b7;
@@ -414,3 +420,7 @@ body {
   margin-top:10px;
   font:bold 13pt 'open sans';
 }
+
+.ukrs td { background:#ffd700 !important; color:#0057b7; }
+.ukrs td.time { background:#0057b7 !important; }
+.ukrs h3 a { color:#0057b7 !important; }
